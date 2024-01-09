@@ -7,7 +7,7 @@ const app = express();
 const PORT = 3333;
 
 //midleware
-app.set("view engine", "ejs");
+// app.set("view engine", "ejs");
 app.set("views", "./views");
 app.use(express.json());
 app.use(morgan("combined"));
